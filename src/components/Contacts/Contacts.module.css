@@ -16,6 +16,7 @@ ul {
   background-color: rgb(230, 223, 223);
   border-radius: 8px;
   display: grid;
+  align-items: center;
   grid-template-columns: 180px 180px 30px;
   grid-auto-flow: dense;
   padding: 5px 15px;
