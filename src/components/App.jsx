@@ -13,7 +13,6 @@ import 'react-toastify/dist/ReactToastify.css';
 export const App = () => {
   const contactsList = useSelector(getContacts);
   const filter = useSelector(getFilter);
-
   const dispatch = useDispatch();
 
   const onSubmitForm = newContact => {
